@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap");
+/* Global Section */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #3E2C41 !important;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px !important;
+  color: #FEFBF3;
+  padding-bottom: 50px;
+}
+
+h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px !important;
+  color: #c0fdff;
+}
+
+a, p {
+  font-family: 'Space Mono', monospace;
+  font-size: 18px !important;
+  text-decoration: none !important;
+  color: #FEFBF3 !important;
+}
+
+a:hover {
+  color: #4B3869 !important;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+li {
+  list-style: none;
+}
+
+.button {
+  background-color: #6E85B2;
+  border-radius: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+/* .divider{
+    margin-top: 100px;
+    border-radius: 5px;
+    height: 5px;
+    background-color:#c0fdff; 
+} */
+/*End  Global Section */
+/* Navbar Section */
+.navbar {
+  padding: 0 50px;
+  background: #261C2C;
+}
+
+.nav-logo img {
+  height: 100px;
+}
+
+.nav-link {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.nav-link li {
+  padding-right: 50px;
+}
+
+/* End Navbar Section */
+/* Home Section */
+.home-section {
+  background: #3E2C41;
+  color: #FEFBF3;
+  height: 100vh;
+}
+
+.home {
+  padding-top: 50px;
+}
+
+.home-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-item img {
+  border-radius: 20px;
+  height: 500px;
+}
+
+.home-paragraph {
+  width: 700px;
+}
+
+.home-paragraph p {
+  font-size: 25px !important;
+  padding-bottom: 50px;
+}
+
+/* End Home Section */
+/* Collection Section */
+.collection {
+  padding-top: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collection-item {
+  text-align: center;
+  padding: 45px 0;
+  border-radius: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.collection-item:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5C527F), to(rgba(8, 10, 18, 0)));
+  background: linear-gradient(180deg, #5C527F 0%, rgba(8, 10, 18, 0) 100%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.collection img {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 6px 20px 0px #5C527F;
+          box-shadow: 5px 6px 20px 0px #5C527F;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.collection .row {
+  text-align: center;
+  padding: 45px 40px 32px;
+  border-radius: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.collection-p p {
+  text-align: center;
+  font-size: 25px !important;
+}
+
+/* End Collection Section */
+/* Buy Section */
+.buy {
+  padding-top: 50px;
+}
+
+.buy .row-item {
+  background-color: #4B3869;
+  margin: 30px 0;
+  padding: 15px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buy .row-item:hover {
+  color: #c0fdff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.buy .row-item h4 {
+  text-transform: uppercase;
+}
+
+/* End Buy Section */
+/* Roadmap Section */
+.roadmap {
+  padding-top: 50px;
+}
+
+/* End Roadmap Section */
+/* Footer Section */
+footer {
+  background: #261C2C !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 50px;
+}
+
+footer .left-link a {
+  color: #FEFBF3;
+  padding-right: 20px;
+}
+
+footer a {
+  color: #c0fdff !important;
+}
+
+/* End Footer Section */
+/*# sourceMappingURL=style.css.map */
