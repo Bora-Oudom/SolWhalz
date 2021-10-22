@@ -11,37 +11,37 @@ body {
   background: #3E2C41 !important;
 }
 
-h1 {
+body h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 50px !important;
   color: #FEFBF3;
   padding-bottom: 50px;
 }
 
-h4 {
+body h4 {
   font-family: 'Roboto Slab', serif;
   font-size: 30px !important;
   color: #c0fdff;
 }
 
-a, p {
+body a, body p {
   font-family: 'Space Mono', monospace;
   font-size: 18px !important;
   text-decoration: none !important;
   color: #FEFBF3 !important;
 }
 
-a:hover {
+body a:hover {
   color: #4B3869 !important;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
-li {
+body li {
   list-style: none;
 }
 
-.button {
+body .button {
   background-color: #6E85B2;
   border-radius: 15px;
   padding: 15px 30px;
@@ -129,21 +129,6 @@ li {
           align-items: center;
 }
 
-.collection-item {
-  text-align: center;
-  padding: 45px 0;
-  border-radius: 15px;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.collection-item:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5C527F), to(rgba(8, 10, 18, 0)));
-  background: linear-gradient(180deg, #5C527F 0%, rgba(8, 10, 18, 0) 100%);
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
 .collection img {
   height: 300px;
   width: 300px;
@@ -159,6 +144,21 @@ li {
   text-align: center;
   padding: 45px 40px 32px;
   border-radius: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.collection-item {
+  text-align: center;
+  padding: 45px 0;
+  border-radius: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.collection-item:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5C527F), to(rgba(8, 10, 18, 0)));
+  background: linear-gradient(180deg, #5C527F 0%, rgba(8, 10, 18, 0) 100%);
   -webkit-transition: 1s;
   transition: 1s;
 }
